@@ -20,6 +20,9 @@ class _RandomColorScreenState extends State<RandomColorScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Colors Changing App"),
+      ),
       backgroundColor: _backgroundColor,
       body: Center(
         child: ElevatedButton(
